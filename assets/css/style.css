@@ -4,8 +4,30 @@
     box-sizing: border-box;
 }
 
+/* global */
 body {
     max-height: 100vh;
     background: black url("../img/bg-dark.jpg") no-repeat top center/100vh;
     color: #c2c2c2;
+}
+
+#page {
+    background: rgba(255, 1, 100, .3);
+    max-width: 380px;
+    margin: auto;
+    border-radius: 15px 5px;
+}
+
+#content {
+    max-width: 360px;
+    margin: 56px auto;
+    text-align: center;
+}
+
+/* top */
+#content header {
+    padding: 24px;
+}
+#content header img {
+    border-radius: 50%;
 }
