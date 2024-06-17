@@ -3,3 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    max-height: 100vh;
+    background: black url("../img/bg-dark.jpg") no-repeat top center/100vh;
+}
