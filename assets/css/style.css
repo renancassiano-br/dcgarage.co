@@ -21,7 +21,7 @@
     --text-color: white;
     --bg-color: #c6bdb3;
     --bg-body: url("../img/bg-light.jpg");
-    --shadow-black: white 0px 0px 3px;
+    --shadow-black: none;
     --bg-page: rgba(102, 0, 255, 0.25);
     /* --bg-page: rgba(0, 0, 0, 0.2); */
     --bg-link: rgba(92, 182, 37, .63);
@@ -92,6 +92,7 @@ body {
 .light #switch button {
     right: 0;
     left: initial;
+    font-weight: bold;
 }
 #switch span {
     display: block;
@@ -126,6 +127,10 @@ ul li a:hover {
     transform: scale(1.1);
     background: var(--bg-link-hover);
     box-shadow: var(--bg-link) 0px 0px 50px;
+}
+.light ul li a:hover {
+    color: black;
+    
 }
 
 /* social */
