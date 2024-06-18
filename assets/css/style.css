@@ -39,3 +39,29 @@ body {
     text-shadow: black 0px 0px 3px;
     margin-top: 8px;
 }
+
+/* lista */
+ul {
+    padding: 24px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+ul li a {
+    text-decoration: none;
+    text-shadow: black 0px 0px 3px;
+    background: rgba(0, 0, 0, .1);
+    border: 1px solid rgb(255, 255, 255, .5);
+    border-radius: 3px 15px;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+
+    transition: all .2s;
+}
+ul li a:hover {
+    transform: scale(1.1);
+    background: rgb(0, 0, 0, .5);
+}
