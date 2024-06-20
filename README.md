@@ -1,4 +1,4 @@
-<h1 align="center"> DC Garage | Links< </h1>
+<h1 align="center"> DC Garage | Links </h1>
 
 <p align="center">
 Treinamento prático com projeto de Links/ "Cartão de visitas", concentrando os meios de comunicação da empresa com o cliente final.
