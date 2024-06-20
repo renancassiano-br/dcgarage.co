@@ -88,11 +88,13 @@ body {
     left: 0;
     transform: translateY(-50%);
     z-index: 1;
+    animation: change-dark .3s;
 }
 .light #switch button {
-    right: 0;
-    left: initial;
+    /* right: 0; */
+    /* left: initial; */
     font-weight: bold;
+    animation: change-light .3s forwards;
 }
 #switch span {
     display: block;
@@ -172,6 +174,7 @@ ul li a:hover {
     padding: 2px;
 }
 
+/* media query */
 @media (min-width: 700px) {
     :root {
         --bg-body: url("../img/bmw-dark-full.jpg");
@@ -179,5 +182,23 @@ ul li a:hover {
 
     .light {
         --bg-body: url("../img/bmw-light-full.jpg");
+    }
+}
+
+@keyframes change-light {
+    go {
+        left: 0;
+    }
+    to {
+        left: 50%;
+    }
+}
+
+@keyframes change-dark {
+    0%{
+        left: 50%;
+    }
+    100${
+        left: 0;
     }
 }
